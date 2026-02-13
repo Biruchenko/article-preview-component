@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+		<title>Frontend Mentor | Article preview component</title>
+		<link rel="stylesheet" href="./styles/styles.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1 class="sr-only">Article preview component</h1>
+			</header>
+			<main>
+				<article class="card">
+					<div class="card__container">
+						<div class="card__body">
+							<figure class="card__image">
+								<img src="images/drawers.jpg" alt="Image of drawers">
+							</figure>
+							<div class="card__content">
+								<h2 class="card__title">
+									Shift the overall look and feel by adding these wonderful
+									touches to furniture in your home
+								</h2>
+								<div class="card__text">
+									<p>
+										Ever been in a room and felt like something was missing? Perhaps
+										it felt slightly bare and uninviting. I’ve got some simple tips
+										to help you make any room feel complete.
+									</p>
+								</div>
+								<div class="card__author author">
+									<div class="author__content">
+										<figure class="author__avatar">
+											<img src="images/avatar-michelle.jpg" alt="Michelle Appleton">
+										</figure>
+										<div class="author__body">
+											<div class="author__name">Michelle Appleton</div>
+											<div class="author__date">28 Jun 2020</div>
+										</div>
+									</div>
+									<div class="author__share share">
+										<button type="button" class="share__btn">
+											<svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15 6.48112L8.76629 0V3.86675H7.44095C3.33138 3.86675 0 7.02539 0 10.9219V12.971L0.588684 12.3594C2.59014 10.2802 5.4221 9.09549 8.39115 9.09549H8.76629V12.9622L15 6.48112Z" />
+											</svg>
+										</button>
+										<div class="share__body">
+											<div class="share__inner">
+												<div class="share__content">
+													<div class="share__title">Share</div>
+													<ul class="share__social social">
+														<li class="social__item">
+															<a href="https://www.facebook.com" target="_blank" class="social__link">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M18.8958 0H1.10417C0.494167 0 0 0.494167 0 1.10417V18.8967C0 19.5058 0.494167 20 1.10417 20H10.6833V12.255H8.07667V9.23667H10.6833V7.01083C10.6833 4.4275 12.2608 3.02083 14.5658 3.02083C15.67 3.02083 16.6183 3.10333 16.895 3.14V5.84L15.2967 5.84083C14.0433 5.84083 13.8008 6.43667 13.8008 7.31V9.2375H16.79L16.4008 12.2558H13.8008V20H18.8975C19.5058 20 20 19.5058 20 18.8958V1.10417C20 0.494167 19.5058 0 18.8958 0Z" fill="white" />
+																</svg>
+															</a>
+														</li>
+														<li class="social__item">
+															<a href="https://x.com" target="_blank" class="social__link">
+																<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M20 1.92417C19.2642 2.25083 18.4733 2.47083 17.6433 2.57C18.4908 2.0625 19.1417 1.25833 19.4475 0.3C18.655 0.77 17.7767 1.11167 16.8417 1.29583C16.0942 0.498333 15.0267 0 13.8467 0C11.1975 0 9.25083 2.47167 9.84917 5.0375C6.44 4.86667 3.41667 3.23333 1.3925 0.750833C0.3175 2.595 0.835 5.0075 2.66167 6.22917C1.99 6.2075 1.35667 6.02333 0.804167 5.71583C0.759167 7.61667 2.12167 9.395 4.095 9.79083C3.5175 9.9475 2.885 9.98417 2.24167 9.86083C2.76333 11.4908 4.27833 12.6767 6.075 12.71C4.35 14.0625 2.17667 14.6667 0 14.41C1.81583 15.5742 3.97333 16.2533 6.29 16.2533C13.9083 16.2533 18.2125 9.81917 17.9525 4.04833C18.7542 3.46917 19.45 2.74667 20 1.92417Z" fill="white" />
+																</svg>
+															</a>
+														</li>
+														<li class="social__item">
+															<a href="https://pinterest.com/" target="_blank" class="social__link">
+																<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M10 0C4.4775 0 0 4.47667 0 10C0 14.2367 2.63583 17.855 6.35583 19.3117C6.26833 18.5208 6.18917 17.3075 6.39083 16.4442C6.5725 15.6633 7.56333 11.4733 7.56333 11.4733C7.56333 11.4733 7.26417 10.8742 7.26417 9.98833C7.26417 8.59833 8.07 7.56 9.07333 7.56C9.92583 7.56 10.3383 8.20083 10.3383 8.96833C10.3383 9.82583 9.7925 11.1083 9.51 12.2975C9.27417 13.2925 10.0092 14.105 10.9908 14.105C12.7683 14.105 14.1342 12.2308 14.1342 9.52583C14.1342 7.13167 12.4142 5.4575 9.9575 5.4575C7.1125 5.4575 5.4425 7.59167 5.4425 9.79667C5.4425 10.6558 5.77333 11.5783 6.18667 12.0783C6.26833 12.1775 6.28 12.265 6.25583 12.3658L5.97833 13.4992C5.93417 13.6825 5.83333 13.7217 5.64333 13.6333C4.39417 13.0517 3.61333 11.2258 3.61333 9.75917C3.61333 6.605 5.905 3.7075 10.2208 3.7075C13.69 3.7075 16.3858 6.18 16.3858 9.48333C16.3858 12.93 14.2133 15.7033 11.1967 15.7033C10.1833 15.7033 9.23083 15.1775 8.905 14.555L8.28167 16.9325C8.05583 17.8017 7.44667 18.8908 7.03833 19.5542C7.975 19.8433 8.96917 20 10 20C15.5225 20 20 15.5225 20 10C20 4.47667 15.5225 0 10 0Z" fill="white" />
+																</svg>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<button type="button" class="share__btn share__btn--active">
+													<svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M15 6.48112L8.76629 0V3.86675H7.44095C3.33138 3.86675 0 7.02539 0 10.9219V12.971L0.588684 12.3594C2.59014 10.2802 5.4221 9.09549 8.39115 9.09549H8.76629V12.9622L15 6.48112Z" />
+													</svg>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</main>
+			<footer>
+				<div class="attribution">
+					Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				</div>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
