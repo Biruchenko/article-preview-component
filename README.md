@@ -12,6 +12,8 @@ This project reproduces the article preview component design and behavior from F
 
 ### Links
 
+- https://biruchenko.github.io/article-preview-component/
+
 ### Features
 
 - **Responsive layout:** Mobile-first styles with a desktop variant
